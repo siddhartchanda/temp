@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 
 def res(l):
     # Load the dataset
-    df = pd.read_csv("TRAVEL.csv")
+    df = pd.read_csv("Travel_Insurance_Predictor\TRAVEL.csv")
 
     # Data Preprocessing
     # Handle missing values (if any)
