@@ -6,7 +6,7 @@ import joblib
 from tensorflow import keras
 from test import res
 app=Flask(__name__)
-data=pd.read_csv('TRAVEL.csv')
+data=pd.read_csv('Travel_Insurance_Predictor\TRAVEL.csv')
 #model=pickle.load(open("Sid.pkl",'rb'))
 #model = keras.models.load_model('travel_insurance_model.h5')
 @app.route('/')
