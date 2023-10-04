@@ -2,8 +2,8 @@ import pandas as pd
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
-import joblib
-from tensorflow import keras
+# import joblib
+# from tensorflow import keras
 from test import res
 app=Flask(__name__)
 data=pd.read_csv('TRAVEL.csv')
